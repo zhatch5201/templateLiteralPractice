@@ -29,7 +29,7 @@ var addTest = test_1 + test_2;
 console.log(addTest)
 
 //console log 3 string's using concatination that say "concatinating is easy""when using template literals,""I can even embed numbers and not have to worry about spacing!"
-console.log('This was fun' + ' why would anyone do this' + ' this is just, not a good idea.');
+console.log(`This was fun why would anyone do this this is just, not a good idea.`);
 
 //console log the three strings above and add a third string that includes the add var
 console.log(`This was fun why would anyone do this this is just, not a good idea. My favortite number is ${addTest}!`)
